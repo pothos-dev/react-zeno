@@ -31,7 +31,7 @@ export type StoreContext<T extends StoreShape> = React.Context<{
 
 type Selector<T extends StoreShape, R> = (storeState: StoreState<T>) => R
 
-export function createHooks<T extends StoreShape>(
+export function createZenoHooks<T extends StoreShape>(
   storeClass: StoreClass<T>
 ): ZenoHooks<T> {
   const storeContext: StoreContext<T> = createContext({

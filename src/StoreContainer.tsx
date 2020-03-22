@@ -5,7 +5,7 @@ import {
   StoreInstance,
   StoreState,
 } from '@bearbytes/zeno'
-import { StoreContext } from '.'
+import { StoreContext } from './Hooks'
 
 export type StoreContainer<T extends StoreShape> = React.FC<
   StoreContainerProps<T>

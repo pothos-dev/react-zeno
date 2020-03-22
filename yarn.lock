@@ -208,10 +208,10 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@bearbytes/zeno@0.1.6":
-  version "0.1.6"
-  resolved "https://npm.pkg.github.com/download/@bearbytes/zeno/0.1.6/5a3e04880fd5499ed8cfec42a3098f945d07891d1af2aa51c90e214f2c026995#ca0f9ab0a7c329480c7f3580daae1b16803c4f41"
-  integrity sha512-Nvu4qK7Cw6BaX9ktEYFsPWUlUal+kxZ+ph5AKMmpXMp/TG38+dxDu+WMVXiCazXnXtnFra8GXShl1idVSl4t5A==
+"@bearbytes/zeno@0.1.7":
+  version "0.1.7"
+  resolved "https://npm.pkg.github.com/download/@bearbytes/zeno/0.1.7/6f1931fbd46a4f730dfecfad276bd5f9f7c7d73fd28437a60926375a01ebd274#e78184147af25802755387a564c5c446aad12918"
+  integrity sha512-u8499cr7xqJ0Ncn7ldjomyo77qzLG8jOyy557VjFW8f5cccLfDEdGrZhecksXeAlJqoHf4c3UQAw4p26gnvk3w==
   dependencies:
     immer "^6.0.2"
 

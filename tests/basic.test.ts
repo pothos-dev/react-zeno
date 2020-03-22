@@ -1,13 +1,12 @@
-import { createHooks } from '../src'
-import { createStoreClass } from '@bearbytes/zeno'
 import { renderHook, act } from '@testing-library/react-hooks'
+import { createStoreClass } from '../src'
 
 test('create hooks', () => {
   type MyStore = {
     state: { counter: 0 }
     messages: { increment: { by: number } }
   }
-  const storeClass = createStoreClass<MyStore>({
+  const { useStore, useDispatch } = createStoreClass<MyStore>({
     initialState: { counter: 0 },
     messageHandlers: {
       increment(s, m) {
@@ -15,7 +14,6 @@ test('create hooks', () => {
       },
     },
   })
-  const { useStore, useDispatch } = createHooks(storeClass)
 
   let renderCount = 0
   const { result } = renderHook(() => {
