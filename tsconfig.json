@@ -5,6 +5,7 @@
     "declaration": true,
     "lib": ["esnext", "dom"],
     "allowSyntheticDefaultImports": true,
-    "strict": true
+    "strict": true,
+    "jsx": "react"
   }
 }
