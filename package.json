@@ -2,6 +2,13 @@
   "name": "@bearbytes/react-zeno",
   "version": "0.2.0",
   "description": "The React companion to Zeno, a Redux implementation optimized for Typescript.",
+  "keywords": [
+    "typescript",
+    "typesafe",
+    "redux",
+    "react",
+    "hooks"
+  ],
   "author": "pancomputationalist@mailbox.org",
   "license": "ISC",
   "homepage": "https://github.com/bearbytes/react-zeno",
@@ -11,11 +18,8 @@
   "files": [
     "dist"
   ],
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
   "dependencies": {
-    "@bearbytes/zeno": "0.1.8"
+    "@bearbytes/zeno": "^0.1.9"
   },
   "devDependencies": {
     "@testing-library/react-hooks": "^3.2.1",

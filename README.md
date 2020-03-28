@@ -1,3 +1,6 @@
+[![NPM Version](https://img.shields.io/npm/v/@bearbytes/react-zeno.svg?style=flat)](https://www.npmjs.com/package/@bearbytes/react-zeno)
+[![Actions Status](https://github.com/bearbytes/react-zeno/workflows/CI/badge.svg)](https://github.com/bearbytes/react-zeno/actions)
+
 # React-Zeno
 
 <!-- TOC depthFrom:2 -->
