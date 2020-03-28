@@ -1,6 +1,6 @@
 import {
   StoreClass,
-  StoreShape,
+  StoreInterface,
   Dispatch,
   StoreInstance,
   StoreState,
@@ -14,7 +14,7 @@ import {
 } from 'react'
 import { StoreContainer, createStoreContainer } from './StoreContainer'
 
-export interface ZenoHooks<T extends StoreShape> {
+export interface ZenoHooks<T extends StoreInterface> {
   useStore(): StoreState<T>
   useStore<R>(selector: Selector<T, R>, dependencyList: DependencyList): R
 
@@ -25,13 +25,13 @@ export interface ZenoHooks<T extends StoreShape> {
   StoreContainer: StoreContainer<T>
 }
 
-export type StoreContext<T extends StoreShape> = React.Context<{
+export type StoreContext<T extends StoreInterface> = React.Context<{
   storeInstance: StoreInstance<T>
 }>
 
-type Selector<T extends StoreShape, R> = (storeState: StoreState<T>) => R
+type Selector<T extends StoreInterface, R> = (storeState: StoreState<T>) => R
 
-export function createZenoHooks<T extends StoreShape>(
+export function createZenoHooks<T extends StoreInterface>(
   storeClass: StoreClass<T>
 ): ZenoHooks<T> {
   const storeContext: StoreContext<T> = createContext({

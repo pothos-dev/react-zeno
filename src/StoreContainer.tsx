@@ -1,21 +1,21 @@
 import React, { ReactNode } from 'react'
 import {
-  StoreShape,
+  StoreInterface,
   StoreClass,
   StoreInstance,
   StoreState,
 } from '@bearbytes/zeno'
 import { StoreContext } from './Hooks'
 
-export type StoreContainer<T extends StoreShape> = React.FC<
+export type StoreContainer<T extends StoreInterface> = React.FC<
   StoreContainerProps<T>
 >
 
-export type StoreContainerProps<T extends StoreShape> = {
+export type StoreContainerProps<T extends StoreInterface> = {
   children?: ReactNode
 } & ({ storeInstance?: StoreInstance<T> } | { initialState?: StoreState<T> })
 
-export function createStoreContainer<T extends StoreShape>(
+export function createStoreContainer<T extends StoreInterface>(
   storeClass: StoreClass<T>,
   context: StoreContext<T>
 ): StoreContainer<T> {

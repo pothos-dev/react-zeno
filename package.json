@@ -15,7 +15,7 @@
     "registry": "https://npm.pkg.github.com/"
   },
   "dependencies": {
-    "@bearbytes/zeno": "0.1.7"
+    "@bearbytes/zeno": "0.1.8"
   },
   "devDependencies": {
     "@testing-library/react-hooks": "^3.2.1",

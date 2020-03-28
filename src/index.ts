@@ -1,12 +1,12 @@
 import {
   createStoreClass,
-  StoreShape,
+  StoreInterface,
   CreateStoreClassOptions,
   StoreClass,
 } from '@bearbytes/zeno'
 import { ZenoHooks, createZenoHooks } from './Hooks'
 
-function createStoreClassWithHooks<T extends StoreShape>(
+function createStoreClassWithHooks<T extends StoreInterface>(
   options: CreateStoreClassOptions<T>
 ): StoreClass<T> & ZenoHooks<T> {
   const storeClass = createStoreClass(options)
