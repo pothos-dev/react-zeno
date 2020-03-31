@@ -63,7 +63,7 @@ If you're coming from Redux, here is a glossary with the terms you are familiar 
 ```
 npm i @bearytes/react-zeno
 # or
-yarn add @bearbytes/zeno
+yarn add @bearbytes/react-zeno
 ```
 
 ### Defining Types
