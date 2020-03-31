@@ -16,13 +16,14 @@
   - [Side effects and async functions](#side-effects-and-async-functions)
   - [Subscribe to changes](#subscribe-to-changes)
   - [Middleware](#middleware)
+  - [Redux DevTools Integration](#redux-devtools-integration)
   - [Creating additional store instances](#creating-additional-store-instances)
 - [FAQ](#faq)
   - [Is this compatible with Redux middleware?](#is-this-compatible-with-redux-middleware)
   - [Why "message" over "action"?](#why-message-over-action)
   - [Why "messageHandler" over "reducer"?](#why-messagehandler-over-reducer)
 - [Future Work](#future-work)
-  - [DevTools integration](#devtools-integration)
+  - [Sending Messages from Redux DevTools Extensions](#sending-messages-from-redux-devtools-extensions)
   - [Slices](#slices)
   - [Internal Messages](#internal-messages)
 
@@ -317,6 +318,14 @@ const storeClass = createStoreClass<MyStore>({
 })
 ```
 
+### Redux DevTools Integration
+
+`StoreInstance`s will automatically connect to a Redux DevTools Extension in the Browser, if available.
+
+It is possible to pass configuration for the Integration to `createStoreClass` and overwrite it in `createInstance`.
+
+It is currently not possible to send Messages from the DevTools to the Store, but this feature [can be added](#sending-messages-from-redux-devtools-extensions) if requested.
+
 ### Creating additional store instances
 
 You can call `createInstance` on a `StoreClass` to create a new copy of the state.
@@ -358,7 +367,9 @@ The term "_messageHandler_" simply states that we need to deal with a message in
 
 ## Future Work
 
-### DevTools integration
+### Sending Messages from Redux DevTools Extensions
+
+For this to work, the lifetime of a StoreInstance must be tracked, otherwise subscribing to DevTools will create memory leaks.
 
 The [Redux DevTools](https://github.com/reduxjs/redux-devtools) are very useful when debugging what happens in the Store, and should probably be built into most libraries that implement Redux.
 

@@ -1,6 +1,6 @@
 {
   "name": "@bearbytes/react-zeno",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "The React companion to Zeno, a Redux implementation optimized for Typescript.",
   "keywords": [
     "typescript",
@@ -18,14 +18,19 @@
   "files": [
     "dist"
   ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org",
+    "access": "public"
+  },
   "dependencies": {
-    "@bearbytes/zeno": "^0.1.9"
+    "@bearbytes/zeno": "^1.0.1"
   },
   "devDependencies": {
     "@testing-library/react-hooks": "^3.2.1",
     "@types/jest": "^25.1.4",
     "@types/react": "^16.9.25",
     "jest": "^25.1.0",
+    "np": "^6.2.0",
     "react": "^16.13.1",
     "react-test-renderer": "^16.13.1",
     "ts-jest": "^25.2.1",
@@ -33,6 +38,7 @@
   },
   "scripts": {
     "prepare": "rm -rf dist && tsc",
-    "test": "jest"
+    "test": "jest",
+    "release": "np --no-yarn"
   }
 }

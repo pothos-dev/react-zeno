@@ -24,7 +24,7 @@ export function createStoreContainer<T extends StoreInterface>(
       'storeInstance' in props ? props.storeInstance : undefined
     let initialState = 'initialState' in props ? props.initialState : undefined
 
-    storeInstance = storeInstance ?? storeClass.createInstance(initialState)
+    storeInstance = storeInstance ?? storeClass.createInstance({ initialState })
 
     return (
       <context.Provider value={{ storeInstance }}>
