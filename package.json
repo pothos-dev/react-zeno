@@ -1,6 +1,6 @@
 {
   "name": "@bearbytes/react-zeno",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The React companion to Zeno, a Redux implementation optimized for Typescript.",
   "keywords": [
     "typescript",
