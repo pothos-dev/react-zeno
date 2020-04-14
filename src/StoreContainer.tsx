@@ -1,4 +1,4 @@
-import React, { ReactNode } from 'react'
+import * as React from 'react'
 import {
   StoreInterface,
   StoreClass,
@@ -12,7 +12,7 @@ export type StoreContainer<T extends StoreInterface> = React.FC<
 >
 
 export type StoreContainerProps<T extends StoreInterface> = {
-  children?: ReactNode
+  children?: React.ReactNode
 } & ({ storeInstance?: StoreInstance<T> } | { initialState?: StoreState<T> })
 
 export function createStoreContainer<T extends StoreInterface>(
