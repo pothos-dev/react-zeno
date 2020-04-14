@@ -23,7 +23,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@bearbytes/zeno": "^1.0.1"
+    "@bearbytes/zeno": "^1.1.0"
   },
   "devDependencies": {
     "@testing-library/react-hooks": "^3.2.1",
