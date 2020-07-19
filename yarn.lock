@@ -208,10 +208,10 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@bearbytes/zeno@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@bearbytes/zeno/-/zeno-1.0.1.tgz#3659f8ebc1ec617744bf42fd87aa016914f1ebdc"
-  integrity sha512-X2cuTDZnec0cAYF/tLwP9eR2uzs7YSckY9v5AICMiW7TYI2eVW5Trb29okSPWOaHyj50eyO0g19STCkdicG5Xg==
+"@bearbytes/zeno@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@bearbytes/zeno/-/zeno-1.1.0.tgz#e751668b7def4f7482b79075d4fc8664fab8b44a"
+  integrity sha512-iIRTzvINrZUjXbtD7PGFRL2QOiLKTX430oDlniB4CTRJ5dHVWeTwZYSKOUloJ2HjeLkfsEDWOIKXxUSy9wbEkg==
   dependencies:
     immer "^6.0.2"
 
@@ -3014,9 +3014,9 @@ lodash.zip@^4.2.0:
   integrity sha1-7GZi5IlkCO1KtsVCo5kLcswIACA=
 
 lodash@^4.17.12, lodash@^4.17.13, lodash@^4.17.15:
-  version "4.17.15"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
-  integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
+  version "4.17.19"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
+  integrity sha512-JNvd8XER9GQX0v2qJgsaN/mzFCNA5BRe/j8JN9d+tWyGLSodKQHKFicdwNYzWwI3wjRnaKPsGj1XkBjx/F96DQ==
 
 log-symbols@^1.0.2:
   version "1.0.2"
