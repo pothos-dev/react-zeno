@@ -208,10 +208,10 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@bearbytes/zeno@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@bearbytes/zeno/-/zeno-1.0.1.tgz#3659f8ebc1ec617744bf42fd87aa016914f1ebdc"
-  integrity sha512-X2cuTDZnec0cAYF/tLwP9eR2uzs7YSckY9v5AICMiW7TYI2eVW5Trb29okSPWOaHyj50eyO0g19STCkdicG5Xg==
+"@bearbytes/zeno@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@bearbytes/zeno/-/zeno-1.1.0.tgz#e751668b7def4f7482b79075d4fc8664fab8b44a"
+  integrity sha512-iIRTzvINrZUjXbtD7PGFRL2QOiLKTX430oDlniB4CTRJ5dHVWeTwZYSKOUloJ2HjeLkfsEDWOIKXxUSy9wbEkg==
   dependencies:
     immer "^6.0.2"
 
@@ -4960,9 +4960,9 @@ xmlchars@^2.1.1:
   integrity sha512-JZnDKK8B0RCDw84FNdDAIpZK+JuJw+s7Lz8nksI7SIuU3UXJJslUthsi+uWBUYOwPFwW7W7PRLRfUKpxjtjFCw==
 
 y18n@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/y18n/-/y18n-4.0.0.tgz#95ef94f85ecc81d007c264e190a120f0a3c8566b"
-  integrity sha512-r9S/ZyXu/Xu9q1tYlpsLIsa3EeLXXk0VwlxqTcFRfg9EhMW+17kbt9G0NrgCmhGb5vT2hyhJZLfDGx+7+5Uj/w==
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/y18n/-/y18n-4.0.1.tgz#8db2b83c31c5d75099bb890b23f3094891e247d4"
+  integrity sha512-wNcy4NvjMYL8gogWWYAO7ZFWFfHcbdbE57tZO8e4cbpj8tfUcwrwqSl3ad8HxpYWCdXcJUCeKKZS62Av1affwQ==
 
 yallist@^3.0.2:
   version "3.1.1"
