@@ -208,10 +208,10 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@bearbytes/zeno@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@bearbytes/zeno/-/zeno-1.0.1.tgz#3659f8ebc1ec617744bf42fd87aa016914f1ebdc"
-  integrity sha512-X2cuTDZnec0cAYF/tLwP9eR2uzs7YSckY9v5AICMiW7TYI2eVW5Trb29okSPWOaHyj50eyO0g19STCkdicG5Xg==
+"@bearbytes/zeno@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@bearbytes/zeno/-/zeno-1.1.0.tgz#e751668b7def4f7482b79075d4fc8664fab8b44a"
+  integrity sha512-iIRTzvINrZUjXbtD7PGFRL2QOiLKTX430oDlniB4CTRJ5dHVWeTwZYSKOUloJ2HjeLkfsEDWOIKXxUSy9wbEkg==
   dependencies:
     immer "^6.0.2"
 
@@ -1942,9 +1942,9 @@ has@^1.0.3:
     function-bind "^1.1.1"
 
 hosted-git-info@^2.1.4:
-  version "2.8.8"
-  resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.8.8.tgz#7539bd4bc1e0e0a895815a2e0262420b12858488"
-  integrity sha512-f/wzC2QaWBs7t9IYqB4T3sR1xviIViXJRJTWBlx2Gf3g0Xi5vI7Yy4koXQ1c9OYDGHN9sBy1DQ2AB8fqZBWhUg==
+  version "2.8.9"
+  resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.8.9.tgz#dffc0bf9a21c02209090f2aa69429e1414daf3f9"
+  integrity sha512-mxIDAb9Lsm6DoOJ7xH+5+X4y1LU/4Hi50L9C5sIswK3JzULS4bwk1FvjdBgvYR4bzT4tuUQiC15FE2f5HbLvYw==
 
 hosted-git-info@^3.0.0:
   version "3.0.4"
