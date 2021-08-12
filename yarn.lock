@@ -208,10 +208,10 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@bearbytes/zeno@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@bearbytes/zeno/-/zeno-1.0.1.tgz#3659f8ebc1ec617744bf42fd87aa016914f1ebdc"
-  integrity sha512-X2cuTDZnec0cAYF/tLwP9eR2uzs7YSckY9v5AICMiW7TYI2eVW5Trb29okSPWOaHyj50eyO0g19STCkdicG5Xg==
+"@bearbytes/zeno@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@bearbytes/zeno/-/zeno-1.1.0.tgz#e751668b7def4f7482b79075d4fc8664fab8b44a"
+  integrity sha512-iIRTzvINrZUjXbtD7PGFRL2QOiLKTX430oDlniB4CTRJ5dHVWeTwZYSKOUloJ2HjeLkfsEDWOIKXxUSy9wbEkg==
   dependencies:
     immer "^6.0.2"
 
@@ -3671,9 +3671,9 @@ path-key@^3.0.0, path-key@^3.1.0:
   integrity sha512-ojmeN0qd+y0jszEtoY48r0Peq5dwMEkIlCOu6Q5f41lfkswXuKtYrhgoTpLnyIcHm24Uhqx+5Tqm2InSwLhE6Q==
 
 path-parse@^1.0.6:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.6.tgz#d62dbb5679405d72c4737ec58600e9ddcf06d24c"
-  integrity sha512-GSmOT2EbHrINBf9SR7CDELwlJ8AENk3Qn7OikK4nFYAu3Ote2+JYNVvkpAEQm3/TLNEJFD/xZJjzyxg3KBWOzw==
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.7.tgz#fbc114b60ca42b30d9daf5858e4bd68bbedb6735"
+  integrity sha512-LDJzPVEEEPR+y48z93A0Ed0yXb8pAByGWo/k5YYdYgpY2/2EsOsksJrq7lOHxryrVOn1ejG6oAp8ahvOIQD8sw==
 
 path-type@^4.0.0:
   version "4.0.0"
