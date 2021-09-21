@@ -208,10 +208,10 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@bearbytes/zeno@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@bearbytes/zeno/-/zeno-1.0.1.tgz#3659f8ebc1ec617744bf42fd87aa016914f1ebdc"
-  integrity sha512-X2cuTDZnec0cAYF/tLwP9eR2uzs7YSckY9v5AICMiW7TYI2eVW5Trb29okSPWOaHyj50eyO0g19STCkdicG5Xg==
+"@bearbytes/zeno@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@bearbytes/zeno/-/zeno-1.1.0.tgz#e751668b7def4f7482b79075d4fc8664fab8b44a"
+  integrity sha512-iIRTzvINrZUjXbtD7PGFRL2QOiLKTX430oDlniB4CTRJ5dHVWeTwZYSKOUloJ2HjeLkfsEDWOIKXxUSy9wbEkg==
   dependencies:
     immer "^6.0.2"
 
@@ -4551,9 +4551,9 @@ tmp@^0.0.33:
     os-tmpdir "~1.0.2"
 
 tmpl@1.0.x:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/tmpl/-/tmpl-1.0.4.tgz#23640dd7b42d00433911140820e5cf440e521dd1"
-  integrity sha1-I2QN17QtAEM5ERQIIOXPRA5SHdE=
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/tmpl/-/tmpl-1.0.5.tgz#8683e0b902bb9c20c4f726e3c0b69f36518c07cc"
+  integrity sha512-3f0uOEAQwIqGuWW2MVzYg8fV/QNnc/IpuJNG837rLuczAaLVHslWHZQj4IGiEl5Hs3kkbhwL9Ab7Hrsmuj+Smw==
 
 to-fast-properties@^2.0.0:
   version "2.0.0"
